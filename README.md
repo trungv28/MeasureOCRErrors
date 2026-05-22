@@ -45,7 +45,7 @@ Mean CER and WER per dataset:
 
 | dataset | CER | WER |
 |---|---|---|
-| dta19 (de) | 0.034 | 0.195 |
+| dta19 (de) | 0.036 | 0.195 |
 | icdar2017 (en) | 0.043 | 0.180 |
 | icdar2017 (fr) | 0.040 | 0.167 |
 | impresso-nzz (de) | 0.061 | 0.248 |
@@ -58,6 +58,6 @@ Error type distribution:
 
 | type | count | percent |
 |---|---|---|
-| substitutions | 1 856 744 | 70.6% |
-| deletions | 330 725 | 12.6% |
-| insertions | 440 909 | 16.8% |
+| substitutions | 95608 | 81% |
+| deletions | 9303 | 7.9% |
+| insertions | 12936 | 11% |
