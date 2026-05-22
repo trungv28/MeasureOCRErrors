@@ -1,7 +1,4 @@
-# dataset — download locally, never commit raw data
 data/
-
-# python generated files
 __pycache__/
 *.py[oc]
 build/
