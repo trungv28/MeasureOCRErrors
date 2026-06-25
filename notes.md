@@ -135,9 +135,9 @@ This fail because the number of samples is very small for now (could add dev set
 
 ## Further directions
 
-**Entity linking (mGENRE)**
+**Entity linking**
 - Outcomes: correct QID / NIL / wrong QID
-- Need QID ground truth: entity-fishing + LLM verifier (≥2/3 agree on canonical Wikidata QID)
+- Need QID ground truth: entity-fishing + LLM verifier (≥2/3 agree on Wikidata QID)
 - Importance target: LIME/SHAP on linker score for reference QID
 
 
