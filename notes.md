@@ -57,10 +57,10 @@ For each entity in eval set: mask tokens in GT line with underscores (preserves 
 **Step 6 — Weighted damage**
 
 Per error span:
-- impact = importance⁺ × corruption
+- impact = importance × corruption
 
 Entity-level summary:
-- damage score = Σ impact / Σ importance⁺  — normalized so entity size doesn't inflate the score
+- damage score = Σ impact / Σ importance  — normalized so entity size doesn't inflate the score
 
 **Step 7 — Repair trajectory (RQ3)**
 
