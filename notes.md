@@ -21,7 +21,7 @@ Test task: NER with HMBert.
 ## Pipeline
 
 **Step 1 — NER annotation on GT**
-- Three annotators: GPT-4.1-mini, Llama-3.1-70B, GLiNER
+- Three annotators: GPT-4.1-mini, Llama-3.1-8B, GLiNER2
 - Accept if ≥ 2/3 agree, same label, span overlap ≥ 0.8
 - Labels: pers, org, loc, prod
 
