@@ -77,6 +77,18 @@ K@α = min k s.t. recovery(k) ≥ α × recovery(full)
 
 ## Results
 
+**NER outcomes**
+
+| type | eval | detection rate | miss rate | wrong-type rate |
+|------|------|---------------|-----------|-----------------|
+| pers | 872  | 0.968 | 0.019 | 0.013 |
+| loc  | 1899 | 0.961 | 0.032 | 0.008 |
+| org  | 129  | 0.814 | 0.093 | 0.093 |
+| prod | 30   | 0.800 | 0.133 | 0.067 |
+| time | 126  | 0.976 | 0.024 | 0.000 |
+| **overall** | **3056** | **0.955** | **0.031** | **0.013** |
+
+
 **RQ1: CER/WER vs entity loss rate**
 
 | predictor | Spearman r | p |
@@ -93,18 +105,8 @@ CER bin:
 | 15–30% | 5   | 0.125 |
 
 Interpretation: statistically significant but practically weak (r ≈ 0.2).
----
 
-**NER outcomes**
 
-| type | eval | detection rate | miss rate | wrong-type rate |
-|------|------|---------------|-----------|-----------------|
-| pers | 872  | 0.968 | 0.019 | 0.013 |
-| loc  | 1899 | 0.961 | 0.032 | 0.008 |
-| org  | 129  | 0.814 | 0.093 | 0.093 |
-| prod | 30   | 0.800 | 0.133 | 0.067 |
-| time | 126  | 0.976 | 0.024 | 0.000 |
-| **overall** | **3056** | **0.955** | **0.031** | **0.013** |
 
 **RQ2: predicting entity failure**
 
@@ -118,8 +120,6 @@ Interpretation: statistically significant but practically weak (r ≈ 0.2).
 
 Damage score beats all baselines.
 
----
-
 **RQ3: Repair trajectory**
 
 | strategy | RepairAUC | K@0.8 |
@@ -131,7 +131,7 @@ Damage score beats all baselines.
 | corruption | 0.762 | 1.59 |
 
 This fail because the number of samples is very small for now (could add dev set ?)
----
+
 
 ## Further directions
 
