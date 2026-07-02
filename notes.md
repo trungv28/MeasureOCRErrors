@@ -197,17 +197,6 @@ Consensus rate (>=2/3 agree):
 
 GLiNER nearly ignores prod (F1 ~= 0.03 vs both others).
 
-**EL annotator agreement (test set, GPT-4.1-mini vs Llama-3.1-8B)**
-
-GPT linking rate: 66.5% (3337/5020 linked, 33.5% NIL). By label: loc 86.4%, prod 58.7%, org 56.1%, pers 45.6%.
-
-Agreement between GPT and Llama (pending Llama run):
-
-| status | n | % |
-|--------|---|---|
-| accepted (same QID) | - | - |
-| nil (both NIL) | - | - |
-| conflict | - | - |
 
 ## Further directions
 
